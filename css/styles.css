@@ -1,0 +1,348 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #434455;
+    letter-spacing: 0.02em;
+    background-color: #ffffff;
+    margin: 0%;
+    
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: #434455;
+}
+.container { 
+max-width: 1158px; 
+margin: 0 auto;
+padding: 0 15px;  
+}
+
+
+/* Header */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+     
+}
+.nav-link  {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    margin-right: auto;
+}
+.nav-link-menu {
+    display: flex;
+    gap: 40px;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+.logo:hover {
+    color: #404bbf;
+}
+.logo:focus{
+    color: #404bbf;
+}
+.logo-header-studio {
+    color: #2e2f42;
+}
+.logo-footer-studio { 
+    color: #f4f4fd;
+}
+.logo-web {
+    color: #4d5ae5;
+}
+.header-nav-link {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    position: relative;
+    
+}
+.header-nav-link:hover {
+    color: #404bbf;
+}
+.header-nav-link:hover::after {
+    content: '';
+    width:  100%;
+    display: block;
+    background-color: #404BBF;
+    border-radius: 2px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+
+}
+.header-nav-link:focus {
+    color: #404bbf;
+}
+.nav-contacts {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+}
+.nav-contacts-list {
+    display: flex;
+    gap: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.nav-link-contacts:hover {
+    color: #404bbf;
+}
+.nav-link-contacts:focus {
+    color: #404bbf;
+}
+
+
+/* Section 1 */
+
+.title {
+    display: block;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/Vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2E2F42;
+    padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.title-header {
+    font-weight: 700px;
+    font-size: 56px;
+    line-height: 1.07; 
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+    
+}
+.title-button {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-align: center;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.title-button:hover {
+    background-color: #404BBF;
+}
+.title-button:focus{
+    background-color: #404BBF;
+}
+
+
+/* Section 2 */
+.advantages {
+    padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+.advantages-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.advantages-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+/* Section 3 */
+.team-section {
+    padding: 120px 0;
+}
+.team-list {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    
+}
+.team-section {
+    background: #f4f4fd;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.team-item {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100%-72px)/4);
+}
+.team-card {
+    padding: 32px 0;
+}
+.team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-text {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+
+
+
+/* Section 4 */
+
+.portfolio {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+    
+}
+.portfolio-list {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 48px; 
+    
+}
+.portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
+    
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px; 
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+.portfolio-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+    
+}
+.card  {
+    display: block;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    display: inline-block; 
+    margin-bottom: 16px;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #f4f4fd;
+    width: 264px;
+}
