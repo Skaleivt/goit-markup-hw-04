@@ -51,6 +51,7 @@ padding: 0 15px;
 }
 .nav-link-menu {
     display: flex;
+    align-items: center;
     gap: 40px;
     
 }
@@ -97,7 +98,7 @@ padding: 0 15px;
 position: relative;
 color: #404bbf;
 }
-.header-nav-list::after  {
+.active::after  {
     content: '';
     width: 100%;
     display: block;
