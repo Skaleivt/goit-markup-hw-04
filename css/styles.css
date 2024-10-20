@@ -94,7 +94,7 @@ padding: 0 15px;
 .header-nav-link:hover, .header-nav-link:focus {
     color: #404bbf;
 }
-.header-nav-list {
+.active {
 position: relative;
 color: #404bbf;
 }
