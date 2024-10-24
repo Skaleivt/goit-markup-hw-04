@@ -95,6 +95,9 @@ padding: 0 15px;
 .header-nav-link:hover, .header-nav-link:focus {
     color: #404bbf;
 }
+.active {
+    color: #404bbf;
+}
 .active::after  {
     content: '';
     width: 100%;
